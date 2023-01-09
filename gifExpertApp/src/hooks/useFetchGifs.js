@@ -13,12 +13,7 @@ export const useFetchGifs = (cat) => {
     }
 
     useEffect(() => {
-
        getImages();
-    
-      return () => {
-        
-      }
     }, []);
 
     return {
