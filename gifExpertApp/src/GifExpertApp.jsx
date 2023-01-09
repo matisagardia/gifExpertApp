@@ -13,12 +13,10 @@ export const GifExpertApp = () => {
 
   return (
     <>
-    
+
     <h1>GifExpertApp</h1>
 
     <AddCategory onNewCategory={onAddCategory}/>
-
-    <button onClick={onAddCategory}>Agregar GIF</button>
 
     {categories.map(cat => <GifGrid key={cat} cat={cat}/>)};
 
