@@ -17,7 +17,6 @@ export const useFetchGifs = (cat) => {
     }, []);
 
     return {
-
         images: images,
         isLoading: isLoading,
         //this can be replaced for only the variable name but for better understanding i keep it this way
